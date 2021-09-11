@@ -1,0 +1,58 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    background-color: rgb(74, 74, 184);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content:center;
+}
+
+.input{
+    margin:20px;
+    padding:20px;
+    width:50%;
+    color:white;
+    text-align: left;
+
+}
+
+.input > .input-text{
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 2px;
+    padding:10px;
+    width:30rem;
+    height:25rem;
+    color:white;
+
+}
+
+.output{
+    width:50%;
+    margin:20px;
+    padding:20px;
+    color:white;
+    text-align: left;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.output > .output-text{
+   
+    background-color: rgb(83, 83, 83);
+    width:30rem;
+    min-height:20rem;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow:  1rem 1rem 0.75rem black;
+    overflow-wrap: break-word;
+}
+span{
+    font-size:100px;
+    text-align: center;
+    word-spacing: 10px;
+}
